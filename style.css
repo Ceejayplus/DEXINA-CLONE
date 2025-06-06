@@ -21,6 +21,24 @@ nav{
     background: #fff;
     padding: 10px 2px;
 }
+.menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+#click {
+    display: none;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-content > div {
+    margin-left: -30px;
+}
 .nav-content nav ul{
     display: flex;
 
@@ -39,13 +57,13 @@ nav{
     color: #f12b11d5;
 }
 .nav-content div{
-    margin-left: -30px;
+    margin-left: 20%;
 }
 .nav-content div a{
-   color: #000;
+    color: #000;
 
 }
-.nav-content div .cart_button{
+.nav-menu .cart_button{
     font-size: 15px;
     border-radius: 25px;
     outline: none;
@@ -56,7 +74,7 @@ nav{
     border: none;
     background: none;
 }
-.nav-content div .contact_button{
+.nav-menu .contact_button{
     background: red;
     color: #fff;
     border: none;
@@ -67,14 +85,15 @@ nav{
     border-radius: 25px;
     transition: all 0.4s ease;
 }
-.nav-content div .contact_button i {
+.nav-menu .contact_button i {
     color: white;
     margin-left: 5px;
 }
-.nav-content div .contact_button:hover{
+.nav-menu .contact_button:hover{
     background: #000;
     transition: all 0.4s ease;
 }
+
 .hero-section{
     padding: 10px 50px 0px 50px;
     height: 80%;
@@ -856,49 +875,79 @@ nav{
     color: #FC372D;
 }
 
-@media (max-width: 768px) {
-    .nav {
-        display: none;
-    }
-    
-    .hero-content {
-        grid-template-columns: 1fr;
-        gap: 32px;
-    }
-    
-    .hero-title {
-        font-size: 36px;
-    }
-    
-    .about-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    
-    .big-number {
-        font-size: 100px;
-    }
-    
-    .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .testimonials-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .pricing-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .footer-content {
-        grid-template-columns: 1fr;
-        gap: 32px;
-    }
-    
-    .footer-bottom {
-        flex-direction: column;
-        gap: 16px;
-        text-align: center;
-    }
+@media (max-width: 940px) {
+  nav .menu-btn i {
+    display: block;
+    color: #000;
+    z-index: 999;
+  }
+
+  #click:checked ~ .menu-btn i::before {
+    content: "\f00d"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 70px;
+    left: -150%;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    /* color: #fff; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+    transition: all 0.3s ease;
+    z-index: 998;
+  }
+
+  #click:checked ~ .nav-menu {
+    left: -20%;
+  }
+
+  .nav-menu ul {
+    flex-direction: column;
+    text-align: center;
+    /* color: #fff; */
+
+  }
+
+  .nav-menu ul li {
+    margin: 20px 0;
+}
+
+.nav-content .nav-menu ul li a {
+    font-size: 18px;
+    display: block;
+    color: #fff;
+  }
+
+
+  .nav-buttons {
+    margin-top: 40px;
+    margin-right: 90px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-buttons .cart_button,
+  .nav-buttons .contact_button {
+    font-size: 15px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+  }
+  .nav-buttons .cart_button {
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+  }
+  .nav-buttons .cart_button:hover {
+    border: 1px solid red;
+    background: #111;
+    color: #fff;
+  }
 }
