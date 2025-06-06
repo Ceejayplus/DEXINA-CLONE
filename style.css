@@ -876,19 +876,19 @@ nav{
 }
 
 @media (max-width: 940px) {
-  nav .menu-btn i {
+nav .menu-btn i {
     display: block;
     color: #000;
     z-index: 999;
-  }
+}
 
-  #click:checked ~ .menu-btn i::before {
+#click:checked ~ .menu-btn i::before {
     content: "\f00d"; 
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-  }
+}
 
-  .nav-menu {
+.nav-menu {
     position: absolute;
     top: 70px;
     left: -150%;
@@ -902,20 +902,20 @@ nav{
     padding-top: 40px;
     transition: all 0.3s ease;
     z-index: 998;
-  }
+}
 
-  #click:checked ~ .nav-menu {
+#click:checked ~ .nav-menu {
     left: -20%;
-  }
+}
 
-  .nav-menu ul {
+.nav-menu ul {
     flex-direction: column;
     text-align: center;
     /* color: #fff; */
 
-  }
+}
 
-  .nav-menu ul li {
+.nav-menu ul li {
     margin: 20px 0;
 }
 
@@ -923,31 +923,31 @@ nav{
     font-size: 18px;
     display: block;
     color: #fff;
-  }
+}
 
 
-  .nav-buttons {
+.nav-buttons {
     margin-top: 40px;
     margin-right: 90px;
     flex-direction: column;
     gap: 20px;
-  }
+}
 
-  .nav-buttons .cart_button,
-  .nav-buttons .contact_button {
+.nav-buttons .cart_button,
+.nav-buttons .contact_button {
     font-size: 15px;
     width: 200px;
     padding: 10px;
     text-align: center;
-  }
-  .nav-buttons .cart_button {
+}
+.nav-buttons .cart_button {
     background: #fff;
     color: #333;
     font-weight: bold;
-  }
-  .nav-buttons .cart_button:hover {
+}
+.nav-buttons .cart_button:hover {
     border: 1px solid red;
     background: #111;
     color: #fff;
-  }
+}
 }
