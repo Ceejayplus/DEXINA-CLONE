@@ -950,4 +950,91 @@ nav .menu-btn i {
     background: #111;
     color: #fff;
 }
+
+.hero-section{
+    padding: 10px 50px 0px 50px;
+    height: 80%;
+    width: auto;
+}
+.hero-section .first-section {
+    margin-top: 10px;
+}
+.hero-section .first-section .agency-section{
+    display: flex;
+    justify-content: space-between;
+}
+.agency-section .right-side img{
+    cursor: pointer;
+}
+.agency-section span{
+    border: 1px solid #d6cece;
+    border-radius: 25px;
+    height: 27px;
+    padding: 0.5px 17px;
+    margin-top: 90px;
+    font-size: 15px;
+    font-weight: 450;
+}
+.agency-section span img{
+    background: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.first-section .agency-section p{
+    font-size: 13px;
+}
+.hero-section .first-section .growth-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.first-section .growth-section h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+.growth-section .word-section {
+    margin-top: 100px;
+}
+.growth-section .word-section p{
+    font-size: 14px;
+    word-spacing: 1.5px;
+}
+.growth-section .buttons {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 15px 15px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.4s ease;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.growth-section div .buttons i {
+    color: white;
+    margin-left: 5px;
+}
+.growth-section div .buttons:hover {
+    background: #000;
+    transition: all 0.4s ease;
+}
+.growth-section .buttons.btn {
+    background: #fff;
+    color: #000;
+    border: 1px solid;
+}
+.growth-section div .btn:hover {
+    background: red;
+    color: #fff;
+}
+.growth-section div .btn i{
+    color: #000;
+}
+.growth-section div .btn i:hover {
+    color: #fff;
+}
 }
