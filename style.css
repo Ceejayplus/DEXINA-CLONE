@@ -1037,4 +1037,12 @@ nav .menu-btn i {
 .growth-section div .btn i:hover {
     color: #fff;
 }
+
+.img-section {
+    background-image: url("img/pattners.webp");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 }
