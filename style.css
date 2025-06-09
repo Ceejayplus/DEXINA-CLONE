@@ -1045,4 +1045,59 @@ nav .menu-btn i {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.about {
+    padding: 10px 50px 0px 50px;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-number {
+    text-align: center;
+}
+
+.about-number .section-label {
+    display: block;
+    margin-bottom: 8px;
+    border: 1px solid #d6cece;
+    border-radius: 25px;
+    height: 27px;
+    width: 150px;
+    margin-left: 40px;
+    padding: 0px 1px;
+    font-size: 16px;
+    font-weight: 450;
+}
+.about-number .section-label img {
+    background: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.big-number {
+    line-height: 30px;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.number-description {
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.about-text p {
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    width: 500px;
+}
 }
