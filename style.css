@@ -761,6 +761,7 @@ nav{
     border-radius: 25px;
     height: 40px;
     width: 300px;
+    cursor: pointer;
     padding: 10px 13px;
     font-size: 14px;
     font-weight: 600;
@@ -818,12 +819,6 @@ nav{
 
 .social-links .socials:hover {
     color: #FC372D;
-}
-
-.social-placeholder {
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
 }
 
 .footer-section ul {
@@ -1165,5 +1160,38 @@ nav .menu-btn i {
     font-weight: 600;
     color: #333;
     margin-left: 10px;
+}
+
+.footer {
+    padding: 10px 50px 0px 50px;
+    height: 630px;
+}
+.footer-description {
+    margin-top: 24px;
+    line-height: 1.6;
+    font-size: 25px;
+}
+.social-links .socials p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.social-links .socials {
+    margin-bottom: 40px;
+    border-bottom: 1.5px solid #D5D5D5;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+.social-links .socials p i {
+    margin-left: 45px;
+}
+.social-links .socials p #one {
+    margin-left: 55px;
+}
+.social-links .socials p #third {
+    margin-left: 55px;
+}
+.social-links .socials p #fourth {
+    margin-left: 60px;
 }
 }
