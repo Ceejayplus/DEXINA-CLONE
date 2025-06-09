@@ -1105,4 +1105,16 @@ nav .menu-btn i {
     padding: 10px 50px 0px 50px;
     height: 500px;
 }
+
+.services {
+    padding: 10px 50px 0px 50px;
+    height: 800px;
+}
+.section-header .section-title {
+    font-size: 50px;
+}
+.service-title {
+    font-size: 35px;
+    font-weight: 600;
+}
 }
