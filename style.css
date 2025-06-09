@@ -1136,4 +1136,8 @@ nav .menu-btn i {
     border-radius: 6px;
     transition: transform 0.3s ease;
 }
+
+.container .testimonial-head .testimonial-title {
+    font-size: 50px;
+}
 }
