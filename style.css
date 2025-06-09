@@ -678,14 +678,9 @@ nav{
     border-radius: 50%;
 }
 
-.section-header .section-title {
+.section-header .section-title-faq {
     font-size: 70px;
 }
-.section-header .section-titlee {
-    font-size: 70px;
-    margin-top: -10px;
-}
-
 .faq-item {
     border-bottom: 2px solid #e5e5e5;
     margin-bottom: 15px;
@@ -1137,7 +1132,38 @@ nav .menu-btn i {
     transition: transform 0.3s ease;
 }
 
+.testimonials {
+    padding: 10px 50px 0px 50px;
+    margin-top: 150px;
+    height: 850px;
+}
 .container .testimonial-head .testimonial-title {
     font-size: 50px;
+}
+
+.pricing {
+    padding: 10px 50px 0px 50px;
+    height: 900px;
+}
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.faq {
+    padding: 10px 50px 0px 50px;
+    height: 1000px;
+    margin-top: 450px;
+}
+.section-header .section-title-faq {
+    font-size: 45px;
+}
+.faq-question h3 {
+    flex: 1;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-left: 10px;
 }
 }
