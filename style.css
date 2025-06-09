@@ -1117,4 +1117,23 @@ nav .menu-btn i {
     font-size: 35px;
     font-weight: 600;
 }
+
+.works {
+    padding: 10px 50px 0px 50px;
+}
+.project-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    width: 800px;
+}
+.project-item img {
+    display: block;
+    width: 10%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
 }
