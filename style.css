@@ -12,7 +12,8 @@ body{
 }
 .nav-content{
     width: 100%;
-    padding: 10px 50px 0px 50px;
+    max-width: 1250px;
+    margin: 0 auto;
 }
 nav{
     display: flex;
