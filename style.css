@@ -96,9 +96,9 @@ nav{
 }
 
 .hero-section{
-    padding: 10px 50px 0px 50px;
+    max-width: 1250px;
+    margin: 0 auto;
     height: 80%;
-    width: auto;
 }
 .hero-section .first-section {
     margin-top: 18px;
