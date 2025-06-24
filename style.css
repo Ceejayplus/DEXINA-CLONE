@@ -865,7 +865,7 @@ nav{
     color: #FC372D;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 450px) {
 nav .menu-btn i {
     display: block;
     color: #000;
@@ -894,7 +894,7 @@ nav .menu-btn i {
 }
 
 #click:checked ~ .nav-menu {
-    left: -23%;
+    left: -20%;
 }
 
 .nav-menu ul {
@@ -911,7 +911,6 @@ nav .menu-btn i {
     display: block;
     color: #fff;
 }
-
 
 .nav-buttons {
     display: flex;
@@ -947,10 +946,6 @@ nav .menu-btn i {
 .hero-section .first-section {
     margin-top: 10px;
 }
-.hero-section .first-section .agency-section{
-    display: flex;
-    justify-content: space-between;
-}
 .agency-section .right-side img{
     cursor: pointer;
 }
@@ -958,18 +953,17 @@ nav .menu-btn i {
     border: 1px solid #d6cece;
     border-radius: 25px;
     height: 27px;
-    padding: 0.5px 17px;
     margin-top: 90px;
     font-size: 15px;
     font-weight: 450;
 }
 .agency-section span img{
     background: red;
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
     border-radius: 50%;
 }
-.first-section .agency-section p{
+.agency-section p{
     font-size: 13px;
 }
 .hero-section .first-section .growth-section{
