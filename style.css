@@ -865,7 +865,7 @@ nav{
     color: #FC372D;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 440px) {
 nav .menu-btn i {
     display: block;
     color: #000;
@@ -881,11 +881,10 @@ nav .menu-btn i {
 .nav-menu {
     position: absolute;
     top: 70px;
-    left: -150%;
+    left: -120%;
     width: 100%;
     height: 100vh;
     background: #111;
-    /* color: #fff; */
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -895,14 +894,12 @@ nav .menu-btn i {
 }
 
 #click:checked ~ .nav-menu {
-    left: -20%;
+    left: -23%;
 }
 
 .nav-menu ul {
     flex-direction: column;
     text-align: center;
-    /* color: #fff; */
-
 }
 
 .nav-menu ul li {
@@ -917,10 +914,11 @@ nav .menu-btn i {
 
 
 .nav-buttons {
-    margin-top: 40px;
-    margin-right: 90px;
+    display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 20px;
+    margin-right: 50px;
 }
 
 .nav-buttons .cart_button,
