@@ -295,8 +295,8 @@ nav{
 }
 
 @keyframes scroll-right {
-    0% { transform: translateX(-50%); }
-    100% { transform: translateX(0); }
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
 }
 
 .second-track{
@@ -317,8 +317,8 @@ nav{
 }
 
 @keyframes scroll-left {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
 }
 
 .services {
