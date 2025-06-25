@@ -191,8 +191,9 @@ nav{
 }
 
 .about {
-    padding: 10px 50px 0px 50px;
-    margin-top: 180px;
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 200px;
     height: 550px;
 }
 
@@ -235,13 +236,14 @@ nav{
     font-size: 18px;
     margin-top: 16px;
 }
-
+.about-text {
+    width: 800px;
+}
 .about-text p {
     font-size: 28px;
     font-weight: 450;
     line-height: 1.6;
     margin-bottom: 24px;
-    width: 800px;
 }
 
 .partners {
