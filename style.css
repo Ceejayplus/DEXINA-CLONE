@@ -782,7 +782,8 @@ nav{
 }
 
 .footer {
-    padding: 10px 50px 0px 50px;
+    max-width: 1250px;
+    margin: 0 auto;
     height: 630px;
 }
 .footer .container {
