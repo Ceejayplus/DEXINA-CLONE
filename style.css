@@ -326,7 +326,8 @@ nav{
 }
 
 .services {
-    padding: 10px 50px 0px 50px;
+    max-width: 1250px;
+    margin: 0 auto;
     height: 950px;
 }
 
@@ -376,7 +377,7 @@ nav{
 
 .service-title {
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .service-header img {
