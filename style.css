@@ -874,7 +874,7 @@ nav{
     color: #FC372D;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 440px) {
 nav .menu-btn i {
     display: block;
     color: #000;
