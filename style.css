@@ -529,7 +529,8 @@ nav{
 }
 
 .pricing {
-    padding: 10px 50px 0px 50px;
+    max-width: 1250px;
+    margin: 0 auto;
     height: 850px;
 }
 
