@@ -465,7 +465,7 @@ nav{
     max-width: 1250px;
     margin: 0 auto;
     margin-top: 150px;
-    height: 750px;
+    height: 800px;
 }
 
 .testimonials .testimonial-head {
@@ -535,7 +535,7 @@ nav{
 .pricing {
     max-width: 1250px;
     margin: 0 auto;
-    height: 700px;
+    height: 750px;
 }
 
 .pricing .section-header {
@@ -666,7 +666,7 @@ nav{
 .faq {
     max-width: 1250px;
     margin: 0 auto;
-    height: 950px;
+    height: 1000px;
 }
 
 .faq .section-header {
@@ -788,10 +788,10 @@ nav{
 .footer {
     max-width: 1250px;
     margin: 0 auto;
-    height: 630px;
+    height: 450px;
 }
 .footer .container {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .footer-content {
@@ -808,7 +808,7 @@ nav{
 }
 
 .footer-description {
-    margin-bottom: 24px;
+    margin-top: 24px;
     line-height: 1.6;
     font-size: 18px;
 }
@@ -822,12 +822,21 @@ nav{
 
 .social-links .socials p {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 600;   
     margin-bottom: 10px;
 }
 
 .social-links .socials p i {
+    margin-left: 140px;
+}
+.social-links .socials p i#one {
     margin-left: 150px;
+}
+.social-links .socials p i#third {
+    margin-left: 153px;
+}
+.social-links .socials p i#fourth {
+    margin-left: 160px;
 }
 
 .social-links .socials:hover {
